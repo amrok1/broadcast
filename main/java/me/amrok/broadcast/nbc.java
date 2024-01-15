@@ -15,7 +15,7 @@ public class nbc implements CommandExecutor {
         }
         if (args.length == 0) {
             sender.sendMessage("§6Использование команды abc:");
-            sender.sendMessage("§6/abc <текст> §f- (От определенных прав можно с цветовыми кодами)");
+            sender.sendMessage("§6/abc <текст> §f- (Можно использовать цветовой код)");
         }
         if (args.length > 0 && sender.hasPermission("bc.use")) {
             final String message = this.buildMessage(args);
