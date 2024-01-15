@@ -4,6 +4,6 @@ main: me.amrok.broadcast.BMain
 commands:
   bcspam:
     permission: bc.globalbc
-  abc:
+  nbc:
     permission: bc.use
 
