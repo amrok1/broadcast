@@ -1,0 +1,9 @@
+name: NexusBroadcast
+version: '${project.version}'
+main: me.amrok.broadcast.BMain
+commands:
+  bcspam:
+    permission: bc.globalbc
+  abc:
+    permission: bc.use
+
