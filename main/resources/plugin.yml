@@ -1,4 +1,4 @@
-name: NexusBroadcast
+name: Broadcast
 version: '${project.version}'
 main: me.amrok.broadcast.BMain
 commands:
